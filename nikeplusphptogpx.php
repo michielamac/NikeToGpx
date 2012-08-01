@@ -12,7 +12,7 @@ class NikePlusPHPGpxExport extends NikePlusPHP {
      
      
 	public function toGpx($run) {
-		date_default_timezone_set('Etc/GMT+8');     
+		date_default_timezone_set('Etc/GMT+8');     // might want to play with this if you're in another timezone
 		             
 		$activity = $run->activity;
 		$waypoints = $run->activity->geo->waypoints;
