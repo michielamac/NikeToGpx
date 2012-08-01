@@ -1,0 +1,8 @@
+Converts your Nike+ GPS data to gpx. Importable for strava!
+Uses a threshold for the so-called pauze-problem. This threshold too maximum 37,8 km/h. So beware if you're a pro runner(sprinter?), or when you used the watch for cycling. 
+
+Run the script from a terminal or shell with : 
+
+> php NikeToGpx username password
+
+Probably PHP 5 required!
