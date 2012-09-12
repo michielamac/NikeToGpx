@@ -5,4 +5,6 @@ Run the script from a terminal or shell with :
 
 > php NikeToGpx username password
 
+After this, imported runs are in the "import" folder.
+
 Probably PHP 5 required!

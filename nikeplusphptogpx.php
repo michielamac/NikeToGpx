@@ -33,7 +33,7 @@ class NikePlusPHPGpxExport extends NikePlusPHP {
 		$b->startDocument("1.0", "UTF-8");
 		                   
 		$b->startElement('gpx');  
-		$b->writeAttribute('version', '0.1');
+		$b->writeAttribute('version', '1.1');
 		$b->writeAttribute('creator', 'nikeplusphp');
 		$b->writeAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
 		$b->writeAttribute('xmlns', 'http://www.topografix.com/GPX/1/1');
